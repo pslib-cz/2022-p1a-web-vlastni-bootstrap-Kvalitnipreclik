@@ -4,14 +4,14 @@ function ulozeni(){
     const udaje ={
       
     }
-    udaje.jmeno = document.getElementById("jmeno").value
-    udaje.prijmeni = document.getElementById("prijmeni").value
+    udaje.name = document.getElementById("name").value
+    
     udaje.email = document.getElementById("email").value
-    udaje.cislo = document.getElementById("cislo").value
-    udaje.dotaz = document.getElementById("dotaz").value
+    udaje.subject = document.getElementById("subject").value
+    udaje.exampleFormControlTextarea1 = document.getElementById("dotaz").value
     console.log(udaje)
 
-    if(udaje.jmeno != "" && udaje.prijmeni != "" && udaje.email != "" && udaje.cislo != "" && udaje.dotaz != "" ){
+    if(udaje.jmeno != "" && udaje.email != "" && udaje.subject != "" && udaje.exampleFormControlTextarea1 != "" ){
     alert("váš dotaz byl odeslán :D")
     } else {
         alert("vyplňte všechny údaje!")
