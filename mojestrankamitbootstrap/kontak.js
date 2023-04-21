@@ -1,22 +1,17 @@
 
-
+let counter = 0
 function ulozeni(){
-    const udaje ={
-      
+    if(counter === 1){
+        alert("Váš druhý dotaz byl už odeslán! snad už vám je všechno jasné.")
+        
+    } else if( counter === 2){
+        alert("Doufáme, že tohle byl váš poslední dotaz.")
+    }else if( counter >2){
+        alert("Váš dotaz byl zkartován.")
+    }else {  
+    alert("Váš první dotaz byl odeslán ^-^")
     }
-    udaje.name = document.getElementById("name").value
-    
-    udaje.email = document.getElementById("email").value
-    udaje.subject = document.getElementById("subject").value
-    udaje.exampleFormControlTextarea1 = document.getElementById("dotaz").value
-    console.log(udaje)
-
-    if(udaje.jmeno != "" && udaje.email != "" && udaje.subject != "" && udaje.exampleFormControlTextarea1 != "" ){
-    alert("váš dotaz byl odeslán :D")
-    } else {
-        alert("vyplňte všechny údaje!")
-    }
-
+    counter++
 }
 
 
