@@ -15,7 +15,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [ ] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
 * [ ] Soubory webu jsou členěny do složek (např. ``/assets/images``, ``/assets/icons``)
 * [ ] Soubory webu se nacházejí v GitHubovém repozitáři
-* [ ] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
+* [x] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [ ] Web je dostupný přes [Github Pages](https://pages.github.com/) (do README.md přidejte odkaz)
 * [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [ ] Obrázky mají rozumnou velikost pro mobilní telefon - tj. odpovídají skutečné velikost vymezeného prostoru
@@ -23,12 +23,12 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 ### Použité komponenty
 
 * [ ] šířka stránky je omezena přes ``conteiner``
-* [ ] jedna galerie s obrázky (např. pomocí prvků typu Card)
-* [ ] všechny stránky budou fungovat na třech rozlišeních: telefonu (sm), tabletu (md nebo lg) a desktopu
-* [ ] použitý carousel nebo hero s obrázkem
-* [ ] vytvořený formulář (kontaktní, registrační)
-* [ ] sticky záhlaví stránky s menu
-* [ ] zápatí stránky (např. https://mdbootstrap.com/docs/jquery/navigation/footer/#advanced)
+* [x] jedna galerie s obrázky (např. pomocí prvků typu Card)
+* [x] všechny stránky budou fungovat na třech rozlišeních: telefonu (sm), tabletu (md nebo lg) a desktopu
+* [x] použitý carousel nebo hero s obrázkem
+* [x] vytvořený formulář (kontaktní, registrační)
+* [x] sticky záhlaví stránky s menu
+* [x] zápatí stránky (např. https://mdbootstrap.com/docs/jquery/navigation/footer/#advanced)
 * [ ] modifikovaný styl Bootstrapu (https://bootstrap.build/themes, https://bootstrap.build/app , https://mdbootstrap.com/docs/jquery/getting-started/installation-guide/ )
 
 ### Estetická kritéria
